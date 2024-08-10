@@ -29,7 +29,7 @@
                     Halo, saya Fajar, seorang pengembang web berpengalaman dengan lebih dari 3 tahun pengalaman dalam
                     membangun aplikasi web yang inovatif dan berkinerja tinggi.
                 </p>
-                <button class="btn btn-primary">Unduh CV</button>
+                <a href="{{ asset('assets/files/ats_cv.pdf') }}"  class="btn btn-primary" target="_blank">Unduh CV</a>
             </div>
         </div>
     </div>
@@ -230,6 +230,11 @@
                         </div>
                     </div>
                     <div class="p-4 flex items-center justify-center rouded-xl drop-shadow-md">
+                        <div class="w-28 h-28 md:w-32 md:h-32"><img src="{{ asset('assets/images/nginx_logo.png') }}"
+                                alt="">
+                        </div>
+                    </div>
+                    {{-- <div class="p-4 flex items-center justify-center rouded-xl drop-shadow-md">
                         <div class="w-28 h-28 md:w-32 md:h-32"><img src="{{ asset('assets/images/laravel_logo.png') }}"
                                 alt="">
                         </div>
@@ -238,12 +243,7 @@
                         <div class="w-28 h-28 md:w-32 md:h-32"><img src="{{ asset('assets/images/laravel_logo.png') }}"
                                 alt="">
                         </div>
-                    </div>
-                    <div class="p-4 flex items-center justify-center rouded-xl drop-shadow-md">
-                        <div class="w-28 h-28 md:w-32 md:h-32"><img src="{{ asset('assets/images/laravel_logo.png') }}"
-                                alt="">
-                        </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
